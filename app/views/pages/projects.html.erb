@@ -1,1 +1,27 @@
 <%# Se crea el archivo con el comando rails g controller pages %>
+<%# Se agrega desde Bootstrap codigo para tres elementos card %>
+
+<div class="card-group">
+  <div class="card">
+    <%= image_tag 'viajeschile.jpg'%>
+    <div class="card-body">
+      <h5 class="card-title">Viajes Chile</h5>
+      <p class="card-text">Proyecho en HTML subido a Github</p>      
+    </div>
+  </div>
+  <div class="card">
+    <%= image_tag 'refactorizacion.jpg', class:"acomodarImagen"%>
+    <div class="card-body">
+      <h5 class="card-title">Prueba Herencias</h5>
+      <p class="card-text">Trabajo de refactorización utilizando herencia y polimorfismo en ruby</p>      
+    </div>
+  </div>
+  <div class="card">
+    <%= image_tag 'landing.jpg'%>
+    <div class="card-body">
+      <h5 class="card-title">Landing</h5>
+      <p class="card-text">Proyecho en HTML subido a Github</p>
+     
+    </div>
+  </div>
+</div>
