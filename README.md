@@ -30,4 +30,6 @@ Things you may want to cover:
 
 * How to run the test suite: in terminal run rails s, use your common navegator a go to http://127.0.0.1:3000/
 
+* This Rails project has been created as an evaluated challenge in the Ruby on Rails Bootcamp for Startups. It is something simple, being the first project in this language.
+
 
