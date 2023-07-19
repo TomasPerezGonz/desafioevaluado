@@ -13,7 +13,7 @@
 *= require_tree .
  *= require_self
  */
-
+/* Se crea clase para acomodar la imagen y su tamaño */
  .acomodarImagen{
     margin-right: auto;
     margin-left: auto;
@@ -22,4 +22,7 @@
    
  }
 
- 
+ /* Se crea clase para dar espacio entre los botones de la barra de navegación */
+ .botonesnav {
+   margin-right: 10px;
+ }
